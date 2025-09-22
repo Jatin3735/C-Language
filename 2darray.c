@@ -35,7 +35,16 @@ int main(){
 		}
 	}
 	printf("Even numbers => %d\n",even);
-	printf("Odd numbers => %d",odd);
+	printf("Odd numbers => %d\n",odd);
 	
+	printf("Enter which number you search : ");
+	scanf("%d",&n);
+	for(i=0;i<2;i++){
+		for(j=0;j<3;j++){
+			if(n==a[i][j]){
+				printf("Your number %d placed at => a[%d][%d]",n,i,j);
+			}
+		}
+	}
 }
 
