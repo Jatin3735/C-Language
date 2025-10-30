@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     char str1[20]="Hello",str2[20]="world";
     int ii=0,i;
