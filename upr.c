@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<ctype.h>
 #include<string.h>
 int main(){
 	char s1[20] = "hello jatin";
@@ -9,3 +10,4 @@ int main(){
 		
 	}
 }
+
